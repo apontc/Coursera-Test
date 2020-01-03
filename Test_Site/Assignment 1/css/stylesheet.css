@@ -19,13 +19,9 @@ h1 {
   background-color: darkgray;
 }
 
-
-
 .outerSection {
   width: 33%;
   float: left;
-
-  
 }
 
 #p1 {
@@ -40,24 +36,16 @@ h1 {
   background-color: lightyellow;
 }
 
-
-
 .information {
   display: inline-block;
   padding: 15px 15px 5px;
-  
-  
-  
 }
 
 .outerLabel {
-display: block;
-text-align: right;
-
-  
+  display: block;
+  text-align: right;
 }
 
-  
 .labelContainer {
   border: 1px solid black;
   border-top: none;
@@ -68,37 +56,35 @@ text-align: right;
   font-weight: bold;
   padding: 5px 0px 5px;
   font-size: 1.25em;
-  
- }
+}
 
 #label1 {
   background-color: pink;
- }
+}
 
 #label2 {
   background-color: darkred;
   color: white;
- }
+}
   
 #label3 {
   background-color: tan;
- }
-  
+}
 
 @media (max-width: 991px) {
-   
   .outerSection {
     width: 50%;
   }
    
-  .outerSection:last-child {
+   .outerSection:last-child {
     width: 100%;
-  }
+   }
   
 }
 
 @media (max-width: 767px) {
   .outerSection {
     width: 100%;
+    
   }
 }
