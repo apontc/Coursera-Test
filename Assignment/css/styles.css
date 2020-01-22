@@ -1,0 +1,77 @@
+
+
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 2px solid;
+  padding-top: 20px;
+
+  
+}
+
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: #777;
+}
+
+.container {
+  width: 100%;
+}
+.navbar-brand {
+  padding-bottom: 25px;
+  padding-top: 5px;
+  font-family: 'Arial', serif;
+  color: #557c3e;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  
+}
+
+#titleMenu {
+  font-weight: 600;
+  font-size: 30px;
+  padding-bottom: 25px;
+  text-shadow: 1px 1px 1px #f6b319;
+}
+
+#foodContainer {
+  background-color: #f22d88;
+  margin: 0 10px 0;
+  padding: 10px;
+  height: 1000px;
+}
+
+div > p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.visible-xs {
+  border: 1px solid #fc5412;
+  background-color: #cc2365;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-toggle {
+  background-color: #fd5690;
+  border-color: #34a98c;
+}
+
+.navbar-toggle {
+  margin: 0;
+  margin-right: 10px;
+}
+
+#collapsable-nav {
+  border-top: 0;
+}
